@@ -1,0 +1,23 @@
+{
+  "config": {
+    "platform": {
+      "php": "8.3.15"
+    },
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "": "app/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^3.7",
+    "bramus/monolog-colored-line-formatter": "^3.1",
+    "illuminate/database": "^11.23"
+  },
+  "require-dev": {
+    "robmorgan/phinx": "0.16.6"
+  }
+}
